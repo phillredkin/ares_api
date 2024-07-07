@@ -14,6 +14,6 @@ HTML Page
 - It creates an instance of Ares, calls get_company_data to fetch company information based on the entered IČO.
 - If data retrieval is successful, it displays the company information in a formatted JSON block with the class result using beautify_json.
 - In case of errors (invalid IČO format, HTTP request error, JSON decoding errors), appropriate error messages are displayed.
-- 
+
 Summary
 This application allows users to input an IČO to retrieve and display company information from the ARES database. It utilizes PHP for server-side processing, cURL for making API requests, and Bootstrap for styling the HTML form and result display. The Ares class encapsulates the logic for validating the IČO, fetching data from the ARES API, and formatting the retrieved data into a readable JSON format for display on the webpage.
